@@ -110,8 +110,8 @@ export function ContactSection() {
                   className="w-full bg-background text-foreground hover:bg-background/90 rounded-full"
                   asChild
                 >
-                  <Link href="https://wa.me/5511978791985" target="_blank" rel="noopener noreferrer">
-                    {"Agendar pelo WhatsApp"}
+                  <Link href="https://forms.gle/dQRM8mK47pBzseAE7" target="_blank" rel="noopener noreferrer">
+                    {"Agendar Sessão"}
                   </Link>
                 </Button>
                 <Button
@@ -120,7 +120,7 @@ export function ContactSection() {
                   className="w-full border-accent-foreground/20 hover:bg-accent-foreground/10 rounded-full bg-transparent"
                   asChild
                 >
-                  <Link href="mailto:contato@stellavianapsi.com.br">{"Enviar E-mail"}</Link>
+                  <Link href="https://forms.gle/CCgEVpoDepjoDYjA8" target="_blank" rel="noopener noreferrer">{"Agendar Mentoria"}</Link>
                 </Button>
               </div>
 

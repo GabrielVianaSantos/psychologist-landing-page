@@ -18,7 +18,7 @@ export function ScheduleButton() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {"Agendar Consulta"}
+        {"Agendar Sessão"}
       </Button>
     </Link>
   )

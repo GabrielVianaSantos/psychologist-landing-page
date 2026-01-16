@@ -1,3 +1,4 @@
+'use client'
 import { Card } from "@/components/ui/card"
 import { Brain, Heart, Target, Users } from "lucide-react"
 
@@ -34,7 +35,7 @@ export function ApproachSection() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mb-16 space-y-4">
           <h2 className="text-sm uppercase tracking-wider text-muted-foreground font-medium">{"Minha Abordagem"}</h2>
-          <h3 className="text-4xl md:text-5xl font-light text-balance leading-tight">{"Como posso ajudar você"}</h3>
+          <h3 className="text-4xl md:text-5xl font-light text-balance leading-tight">{"Como posso ajudar você?"}</h3>
           <p className="text-lg text-muted-foreground leading-relaxed">
             {
               "A Terapia Cognitivo-Comportamental é uma das abordagens mais estudadas e eficazes da psicologia contemporânea, com resultados comprovados no tratamento de diversas questões emocionais."
@@ -55,7 +56,7 @@ export function ApproachSection() {
         </div>
 
         <div className="mt-16 p-8 bg-muted/50 rounded-2xl space-y-6">
-          <h4 className="text-2xl font-light">{"Informações sobre Atendimento"}</h4>
+          <h4 className="text-2xl font-light">{"Informações sobre Atendimento Psicológico"}</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-3">
               <div className="text-sm text-muted-foreground">{"Modalidades"}</div>
@@ -75,6 +76,14 @@ export function ApproachSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center mt-8">
+        <button
+          className="px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors font-medium"
+          onClick={() => document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" })}
+        >
+          Agendar uma Sessão
+        </button>
       </div>
     </section>
   )

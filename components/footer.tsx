@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-2">
-            <div className="text-lg font-medium">{"Dra. Stella Viana Santos"}</div>
+            <div className="text-lg font-medium">{"Stella Viana Santos"}</div>
             <div className="text-sm text-muted-foreground">{"Psicóloga - CRP 06/192977"}</div>
             <div className="text-sm text-muted-foreground">{"Abordagem em Terapia Cognitivo-Comportamental"}</div>
           </div>

@@ -26,8 +26,17 @@ export function PublicationsSection() {
   ]
 
   return (
-    <section id="publicacoes" className="py-24 px-4 bg-muted/30">
-      <div className="max-w-7xl mx-auto">
+    <section id="publicacoes" className="py-24 px-4 bg-muted/30 relative overflow-hidden">
+      <div 
+        className="absolute right-[3%] top-[60%] -translate-y-1/2 w-[50%] h-[90%] opacity-7 pointer-events-none"
+        style={{
+          backgroundImage: "url('/icon.png')",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      />
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="max-w-3xl mb-16 space-y-4">
           <h2 className="text-sm uppercase tracking-wider text-muted-foreground font-medium">{"Publicações"}</h2>
           <h3 className="text-4xl md:text-5xl font-light text-balance leading-tight">{"Contribuições científicas"}</h3>
