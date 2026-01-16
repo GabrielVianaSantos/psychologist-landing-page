@@ -13,7 +13,7 @@ export function ScheduleButton() {
         size="lg"
         className="rounded-full text-white transition-colors"
         style={{
-          backgroundColor: isHovered ? 'oklch(0.60 0.04 160)' : 'oklch(0.55 0.04 160)',
+          backgroundColor: isHovered ? 'oklch(0.60 0.04 180)' : 'oklch(0.66 0.04 180)',
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

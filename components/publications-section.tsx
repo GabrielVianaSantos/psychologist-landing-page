@@ -21,7 +21,7 @@ export function PublicationsSection() {
       publisher: "Editora UICLAP",
       year: "2025",
       description: 'Capítulo: "A Mente que não desliga"',
-      link: "https://www.amazon.com.br/dp/B0F9B5LQ69?ref=cm_sw_r_ffobk_cso_wa_apan_dp_05CQCJF375XW4AXGPBCQ&ref_=cm_sw_r_ffobk_cso_wa_apan_dp_05CQCJF375XW4AXGPBCQ&social_share=cm_sw_r_ffobk_cso_wa_apan_dp_05CQCJF375XW4AXGPBCQ&bestFormat=true",
+      link: "https://amzn.to/49El9IK",
     },
   ]
 

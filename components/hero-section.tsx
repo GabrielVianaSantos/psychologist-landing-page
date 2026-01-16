@@ -16,7 +16,7 @@ export function HeroSection() {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
                 {
-                  "Psicóloga especializada em Terapia Cognitivo-Comportamental (TCC), oferecendo atendimento acolhedor e baseado em evidências científicas."
+                  "Psicóloga com atuação fundamentada na Terapia Cognitivo-Comportamental (TCC), oferecendo um atendimento acolhedor e baseado em evidências científicas."
                 }
               </p>
             </div>
