@@ -76,7 +76,7 @@ export function PalestrasSection() {
 
             <div className="pt-4">
               <Button variant="outline" size="lg" className="rounded-full" asChild>
-                <Link href="#contato">{"Solicitar Proposta"}</Link>
+                <Link href="https://wa.me/5511978791985">{"Solicitar Proposta"}</Link>
               </Button>
             </div>
           </div>
